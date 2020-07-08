@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CKA &amp; CKAD Feedback on @smileisak</title>
-    <link>http://example.org/posts/cka-ckad-feedback/</link>
+    <link>https://smileisak.com/posts/cka-ckad-feedback/</link>
     <description>Recent content in CKA &amp; CKAD Feedback on @smileisak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Jul 2020 06:00:15 +0600</lastBuildDate>
     
-	<atom:link href="http://example.org/posts/cka-ckad-feedback/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://smileisak.com/posts/cka-ckad-feedback/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My Feedback about CKA and CKAD</title>
-      <link>http://example.org/posts/cka-ckad-feedback/cka-ckad-feedback/</link>
+      <link>https://smileisak.com/posts/cka-ckad-feedback/cka-ckad-feedback/</link>
       <pubDate>Wed, 08 Jul 2020 06:00:15 +0600</pubDate>
       
-      <guid>http://example.org/posts/cka-ckad-feedback/cka-ckad-feedback/</guid>
+      <guid>https://smileisak.com/posts/cka-ckad-feedback/cka-ckad-feedback/</guid>
       <description>I recently had the opportunity to pass Certified Kubernetes Application Developer Exam as a beta tester, one month before i’ve passed the Certified Kubernetes Administrator Exam.
 The two exams are hand-on performance-based. So i’ve practiced Kubernetes for a period of time before passing them. CKA and CKAD exams are managed by CNCF (Cloud Native Computing Foundation) and cost me 300$ per exam. To register for CKA and CKAD exam, you need to create an account in cncf.</description>
     </item>
