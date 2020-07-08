@@ -10,10 +10,10 @@ markup:
       unsafe: true
 
 # Enable Google Analytics
-googleAnalytics: UA-xxxxxxxx
+googleAnalytics: UA-171661420-2
 
 # Enable Disqus forum
-disqusShortname: does-not-exist
+disqusShortname: smileisak
 
 # Enable global emoji support
 enableEmoji: true
