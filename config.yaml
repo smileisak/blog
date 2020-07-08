@@ -24,7 +24,7 @@ params:
   copyright: © 2020 Copyright.
 
   # background image of the landing page
-  background: "images/wallpaper.jpg"
+  background: "/assets/images/wallpaper.jpg"
 
   # GitHub repo URL of your site
   gitRepo: https://github.com/hossainemruz/toha-example-site
@@ -40,7 +40,7 @@ params:
   # some information about you
   author:
     name: "Ismail KABOUBI"
-    image: "images/avatar.png"
+    image: "/assets/images/avatar.png"
     # give your some contact information. they will be used in the footer
     contactInfo:
       email: "ikaboubi@gmail.com"
