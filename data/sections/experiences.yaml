@@ -6,18 +6,18 @@
 #   showOnNavbar: true
 #   # Can optionally hide the title in sections
 #   # hideTitle: true 
-#   draft: true
+#   draft: false
 
 # # Your experiences
 # experiences:
 # - company:
-#     name: Example Co.
-#     url: "https://www.example.com"
-#     location: Dhaka Branch
+#     name: Renault AITS
+#     url: "https://renault.fr"
+#     location: Paris
 #     # company overview
-#     overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+#     overview: In a few years, Renault AITS will stop its 2 Datacenters. Strategy is changed to public cloud first approach. During this experience i’ve touched all kind of public/private clouds, technologies and programming languages.
 #   positions:
-#   - designation: Senior Software Engineer
+#   - designation: Senior Software Reabilty Engineer
 #     start: Nov 2019
 #     # don't provide end date if you are currently working there. It will be replaced by "Present"
 #     # end: Dec 2020

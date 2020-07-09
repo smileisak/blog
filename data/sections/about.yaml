@@ -6,7 +6,7 @@ section:
   showOnNavbar: true
 
 # your designation
-designation: Software Reability Engineer
+designation: Software Reliability Engineer
 # your company information
 company:
   name: Self Employed
@@ -16,7 +16,7 @@ company:
 resume: "https://me.smileisak.com"
 
 # a summary about you
-summary: 'I am a passionate software reability engineer (SRE) with 5 years of working experience. I have been working with [Kubernetes](https://kubernetes.io/) since the version 1.1 earler in 2015. I help companies on their cloud transformation journey by endorsing Cloud Native best practices.'
+summary: 'I am a passionate software Reliability engineer (SRE) with 5 years of working experience. I have been working with [Kubernetes](https://kubernetes.io/) since the version 1.1 earler in 2015. I help companies on their cloud transformation journey by endorsing Cloud Native best practices.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
