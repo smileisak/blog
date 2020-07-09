@@ -1,12 +1,14 @@
 ---
 title: "My Feedback about CKA and CKAD"
 date: 2020-07-08T06:00:15+06:00
-hero: /assets/images/cka-ckad-feedback/kubernetes-cka-ckad.png
+hero: /assets/images/feedbacks/cka-ckad-feedback/kubernetes-cka-ckad.png
 author:
   name: Ismail KABOUBI
   image: /assets/images/avatar.png
 categories:
 - cka-ckad-feedback
+- feedbacks
+weight: 1
 
 ---
 
@@ -16,7 +18,7 @@ The two exams are hand-on performance-based. So, I’ve practiced Kubernetes for
 
 ## Certifications
 
-![certs](/assets/images/cka-ckad-feedback/cka-ckad.png)
+![certs](/assets/images/feedbacks/cka-ckad-feedback/cka-ckad.png)
 
 ## Training
 
@@ -46,7 +48,7 @@ There are six clusters that comprise the exam environment. To switch between clu
 kubectl config use-context <cluster>
 ```
 
-![cka-clusters](/assets/images/cka-ckad-feedback/cka-clusters.png)
+![cka-clusters](/assets/images/feedbacks/cka-ckad-feedback/cka-clusters.png)
 
 There are 24 problems/questions with different weight. You have root access to all servers of all clusters so you are in some ways responsible for what you do.
 
@@ -64,7 +66,7 @@ As the CKA exam, the CKAD is local exam that you can pass it from your computer 
 
 There are 4 clusters described as bellow.
 
-![ckad-clusters](/assets/images/cka-ckad-feedback/ckad-clusters.png)
+![ckad-clusters](/assets/images/feedbacks/cka-ckad-feedback/ckad-clusters.png)
 
 My training path was the same as CKA. Same platfrom, same technical environment. The CKAD exam was more complicated than the CKA because of the lack of time but also it was challenging and well made as the CKA.
 

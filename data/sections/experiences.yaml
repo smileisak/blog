@@ -1,39 +1,103 @@
-# # section information
-# section:
-#   name: Experiences
-#   enable: true
-#   weight: 3
-#   showOnNavbar: true
-#   # Can optionally hide the title in sections
-#   # hideTitle: true 
-#   draft: false
+# section information
+section:
+  name: Experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+  draft: false
 
-# # Your experiences
-# experiences:
-# - company:
-#     name: Renault AITS
-#     url: "https://renault.fr"
-#     location: Paris
-#     # company overview
-#     overview: In a few years, Renault AITS will stop its 2 Datacenters. Strategy is changed to public cloud first approach. During this experience i’ve touched all kind of public/private clouds, technologies and programming languages.
-#   positions:
-#   - designation: Senior Software Reabilty Engineer
-#     start: Nov 2019
-#     # don't provide end date if you are currently working there. It will be replaced by "Present"
-#     # end: Dec 2020
-#     # give some points about what was your responsibilities at the company.
-#     responsibilities:
-#     - Design and develop XYZ tool for ABC task
-#     - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-#     - Lead backend team.
+# Your experiences
+experiences:
 
-#   - designation: Junior Software Engineer
-#     start: Nov 2017
-#     end: Oct 2019
-#     responsibilities:
-#     - Implement and test xyz feature for abc tool.
-#     - Support client for abc tool.
-#     - Learn k,d,w technology for xyz.
+- company:
+    name: Cy-Play
+    url: "https://cy-play.com"
+    location: Paris
+    overview: Cy-play provides an in-store solution for tablet and smartphones that empower sales teams in offline retail stores. Play Retail is a solution that covers a large spectrum of functionalities such as making out-of-stock products purchasable and delivered in-store/at home, recruiting prospects in CRM database, looking up a client’s CRM data to provide personnalized selling advice, sending to HQ photos of store’s merchandising, etc. Overall, Cy-Play provide a ready-to-use solution, easily integrated to existing information systems, and take care of training the salesforce to perform at best with their digital “tool-box”. 
+  positions:
+  - designation: Software / DevOps Engineer
+    start: Sep 2015
+    end: May 2017
+    responsibilities:
+    - Worked within the Cloud for integration processes.
+    - Performed DevOps for Linux and Mac Platforms.
+    - Focused on automation and integration.
+    - Monitored developed applications and fixed bugs.
+    - Wrote code and designed continual updates.
+    - Completed load and performance testing of extremely complex systems.
+    - Developed REST API’s for Mobile apps.
+    - Deployed multi-tenant platforms using on top of Kubernetes in aws.
+
+- company:
+    name: BNP Paribas
+    url: "https://mabanque.bnpparibas/"
+    location: Paris
+    overview: Helping BNP Paribas on their cloud transformation journey.
+  positions:
+  - designation: Kubernetes Specialist (Smile) 
+    start: Jun 2017
+    end: Jan 2018
+    responsibilities:
+    - Study the possibility to integrate Docker/Container in developpement process.
+    - Deploy a CICD platform.
+    - Integrate Docker to developement process using Docker Compose.
+    - Provision new environements for developers within a Kubernetes cluster.
+    - Deploy a ChatOps (mattermost) tool to facilitate communication between developers.
+
+- company:
+    name: Société Générale
+    url: "https://developer.societegenerale.fr/"
+    location: Paris
+    overview: Helping Société Générale on a deployment of an API Management platform on top of an Openshift cluster.
+  positions:
+  - designation: Kubernetes Specialist (Smile) 
+    start: Nov 2017
+    end: Jan 2018
+    responsibilities:
+    - Deploy an API Management platform on top of an Openshift cluster.
+    - Create Dockerfiles required for WSO2 compononts.
+    - Automate the provisioning process to have a new WSO2 environement using Shell scripts.
+    - Automate integartion of new APIs within Openshift Cluster using Openshift S2I and templates.
+
+- company:
+    name: Suez Smart Solutions
+    url: "https://www.suezsmartsolutions.com/"
+    location: Paris
+    overview: SUEZ supports city development around the world with through its historical activities, which are water and waste management services. SUEZ Smart Solutions, a subsidiary of the Group, provides intelligent solutions and expertise to support regions in their environmental and digital transformation.
+  positions:
+  - designation: Software Reliability Engineer (Smile)
+    start: Feb 2018
+    end: Sep 2018
+    responsibilities:
+    - "SRE on __DigitalCity Saint Etienne__: Integrates data collection solutions (smart meters, sensors and probes) to provide digital models and real-time applications, thus moving towards rational use of resources and resilience in times of crisis. It consit of OpenAPI Platform that expose public API to end-users to create Apps for Saint Etienne Smart City."
+    - "SRE on __ON’connect coach__: This solution is intended to support users in optimizing their consumption, in particular of domestic hot water"
+
+
+- company:
+    name: Renault AITS
+    url: "https://renault.fr"
+    location: Paris
+    # company overview
+    overview: In a few years, Renault AITS will stop its 2 Datacenters. Strategy is changed to public cloud first approach. During this experience i’ve touched all kind of public/private clouds, technologies and programming languages.
+  positions:
+  - designation: Senior Software Reabilty Engineer
+    start: Nov 2018
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Driving migration process to public cloud providers for more than ~1000 applications.
+    - Proposing and contributing on production ready multitenant Kubernetes architectures.    - Lead backend team.
+    - Assuring that all applications that will migrate respects Cloud Native approach.
+    - Design and develop Kubernetes Operators to manage Custom Resource Definitions to provision multi-tenant environments
+
+  - designation: Kubernetes Specialist (Smile) 
+    start: Sep 2018
+    end: Nov 2018
+    responsibilities:
+    - During this experience I’ve participated to studies of choosing the right solution for Renault AITS to deliver the same Kubernetes service level as public cloud providers. 
 
 # - company:
 #     name: PreExample Co.
