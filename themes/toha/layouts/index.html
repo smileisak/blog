@@ -19,8 +19,10 @@
         {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
     <script data-ad-client="ca-pub-2990237300808440" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  </head>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?forceLang=en&theme=flying&tracking=1&noGeoIp=1&showNoConsent=1"></script>  </head>
+  
   <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
+  
 
     <!--- NAVBAR ------------------------->
     {{- partial "navbar.html" . -}}
@@ -52,6 +54,7 @@
 
     <!--- ADD FOOTER ----------------------->
     {{- partial "footer.html" . -}}
+    <a href="#" onclick="document.cookie='cookiebar=;expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/'; setupCookieBar(); return false;">Click here to revoke the Cookie consent</a>
 
     <!--- ADD COMMON SCRIPTS --------------->
     {{ partial "scripts.html" . }}
