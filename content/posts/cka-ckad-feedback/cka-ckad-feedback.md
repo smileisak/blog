@@ -10,7 +10,7 @@ categories:
 
 ---
 
-I recently had the opportunity to pass Certified Kubernetes Application Developer Exam as a beta tester, one month before i’ve passed the Certified Kubernetes Administrator Exam.
+I recently had the opportunity to pass Certified Kubernetes Application Developer Exam as a beta tester, one month before I’ve passed the Certified Kubernetes Administrator Exam.
 
 The two exams are hand-on performance-based. So, I’ve practiced Kubernetes for a period before passing them. CKA and CKAD exams are managed by CNCF (Cloud Native Computing Foundation) and cost me $300 per exam. To register for CKA and CKAD exam, you need to create an account in cncf.io plateform and purchase a $300 vouchers.
 
