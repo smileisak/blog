@@ -12,7 +12,7 @@ categories:
 
 I recently had the opportunity to pass Certified Kubernetes Application Developer Exam as a beta tester, one month before i’ve passed the Certified Kubernetes Administrator Exam.
 
-The two exams are hand-on performance-based. So i’ve practiced Kubernetes for a period of time before passing them. CKA and CKAD exams are managed by CNCF (Cloud Native Computing Foundation) and cost me 300$ per exam. To register for CKA and CKAD exam, you need to create an account in cncf.io plateform and purchase a 300$ vouchers.
+The two exams are hand-on performance-based. So, I’ve practiced Kubernetes for a period before passing them. CKA and CKAD exams are managed by CNCF (Cloud Native Computing Foundation) and cost me $300 per exam. To register for CKA and CKAD exam, you need to create an account in cncf.io plateform and purchase a $300 vouchers.
 
 ## Certifications
 
@@ -20,27 +20,27 @@ The two exams are hand-on performance-based. So i’ve practiced Kubernetes for 
 
 ## Training
 
-As i said, the two exams are hand-on based labs. Practicing Kubernetes was my primary focus. I had the chance to adpot k8s in the company where i worked since the version 1.2 of Kubernetes.
+As I said, the two exams are hand-on based labs. Practicing Kubernetes was my primary focus. I had the chance to adpot k8s in the company where I worked since the version 1.2 of Kubernetes.
 
-I first started by the Scalable Microservices with Kubernetes training instructed by Kelsey Hightower and Carter Morgan from Google. Despite the fact that the training was not very advanced, but i found it very useful as good begining to discover the tool.
+I first started by the Scalable Microservices with Kubernetes training instructed by Kelsey Hightower and Carter Morgan from Google. Despite the fact that the training was not very advanced, but I found it very useful as good beginning to discover the tool.
 
-After that, i’ve tried to install a Kubernetes cluster in Amazon Web Services. Meanwhile, the are no automatic tool like kops or kube-aws to install the cluster automaticly by launching a set of command lines. Although it was a little bit complicated, I very appreciate the experience because i learned the core components of the tool and how to configured them seperately.
+After that, I’ve tried to install a Kubernetes cluster on Amazon Web Services. Meanwhile, the are no automatic tool like kops or kube-aws to install the cluster automatically by launching a set of command lines. Although it was a little bit complicated, I very appreciated the experience because I learned the core components of the tool and how to configure separately.
 
-When I changed the company in mid-2017, I had not only the opportunity to have access to the CNCF official training for the CKA exam, but also i participated to rewarding missions to put in place Kubernetes in differents platforms from bare metal to cloud solutions.
+When I changed the company in mid-2017, I had not only the opportunity to have access to the CNCF official training for the CKA exam, but also I participated to rewarding missions to put in place Kubernetes in different platforms from bare metal to cloud solutions.
 
-To sum up this is my path to prepare the CKA and CKAD certifications:
+To sum up, this is my path to prepare the CKA and CKAD certifications:
 
 * [Scalable Microservices with Kubernetes (free).](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615)
-* [Introduction to Kubernetes by the linux foundation on EDX (free).](https://www.edx.org/course/introduction-to-kubernetes)
+* [Introduction to Kubernetes by the Linux foundation on EDX (free).](https://www.edx.org/course/introduction-to-kubernetes)
 * [Kubernetes Fundamentals (paid).](https://www.cncf.io/certification/training/)
 * [Kuberntes The Hard Way by Kelsey Hightower(free).](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 * [Documentation kubernetes.io (free).](https://kubernetes.io)
 
 ## CKA Exam
 
-You can take the CKA exam from any qualifying computer, anywhere there is internet, almost any time. The passing score of the exam is 74%.
+You can take the CKA exam from any qualifying computer, anywhere there connected to internet, almost any time. The passing score of the exam is 74%.
 
-There are six clusters that comprise the exam environment. to switch between clusters, we can use :
+There are six clusters that comprise the exam environment. To switch between clusters, we can use :
 
 ```bash
 kubectl config use-context <cluster>
@@ -48,13 +48,13 @@ kubectl config use-context <cluster>
 
 ![cka-clusters](/assets/images/cka-ckad-feedback/cka-clusters.png)
 
-There are 24 problems/questions with different weight. You have root access to all servers of all clusters so you are in some ways responsible of what you do.
+There are 24 problems/questions with different weight. You have root access to all servers of all clusters so you are in some ways responsible for what you do.
 
-The exam plateform is powered by examslocal.com. Copy paste to external softwares are not permitted. Only 2 tabs of you browser are permitted, one for the exam platform and one for kubernetes.io documentation.
+The exam plateform is powered by examslocal.com. Copy paste to external software are not permitted. Only 2 tabs of your browser are permitted, one for the exam platform and one for kubernetes.io documentation.
 
-The exam lasts 3 hours, i found it very challenging and well-made. Although, you have a root access to all servers, the 70% of the exam was made to use only kubectl command line and the 30% to debug and install kubernetes control plane components. For the debuging part, Kubernetes the Hard Way was a good advantage to accomplish theses problems.
+The exam lasts 3 hours, I found it very challenging and well-made. Although you have root access to all servers, the 70% of the exam was made to use only kubectl command line and the 30% to debug and install kubernetes control plane components. For the debugging part, Kubernetes the Hard Way was a good advantage to accomplish these problems.
 
-Because 3 hours are short, i’ve put a personal time limit of 8 minutes per question, i strongly advice you to put a time limit per question. I spent for some questions 1 minute to solve the problem and some time 8 minutes.
+Because 3 hours are short, I’ve put a personal time limit of 8 minutes per question, I strongly advice you to put a time limit per question. I spent for some questions 1 minute to solve the problem and some time 8 minutes.
 
 The embedded note is very useful to copy paste from it. Use it as you can.
 
@@ -68,4 +68,4 @@ There are 4 clusters described as bellow.
 
 My training path was the same as CKA. Same platfrom, same technical environment. The CKAD exam was more complicated than the CKA because of the lack of time but also it was challenging and well made as the CKA.
 
-I felt that i can pass the CKAD exam without additional training the only thing i’ve done was looking to the curriculum repository in Github and i’ve noticed that i’m already mastering 90% of the exam objectives.
+I felt that I can pass the CKAD exam without additional training the only thing i’ve done was looking to the curriculum repository in Github and i’ve noticed that i’m already mastering 90% of the exam objectives.
